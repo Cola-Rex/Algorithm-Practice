@@ -3,6 +3,7 @@ package main;
 import java.util.Date;
 
 /**
+ * 经典问题——八皇后
  * 核心思想是递归
  * @author Ezreal
  *
