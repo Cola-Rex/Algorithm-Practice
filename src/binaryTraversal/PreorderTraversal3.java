@@ -26,7 +26,7 @@ public class PreorderTraversal3 {
 				stack.push(node.right);
 			}
 			if(node.left != null) {
-				stack.push(node.right);
+				stack.push(node.left);
 			}
 		}
 		return result;
