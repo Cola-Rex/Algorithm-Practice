@@ -14,6 +14,8 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V>{
 		MAX_CACHE_SIZE = cacheSize;
 	}
 	
+	//是否删除最老（末尾）的元素，默认返回false，即不删除老数据
+	//这里当 size 大于设定的阈值时执行方法删除最老的元素
 	@Override
 	protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
 		return size() > MAX_CACHE_SIZE;
