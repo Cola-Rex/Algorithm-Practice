@@ -1,4 +1,4 @@
-class Solution {
+public class BinarySearch {
     public int searchInsert(int[] nums, int target) {
         return binarySearch(nums, target, 0, nums.length-1);
     }
