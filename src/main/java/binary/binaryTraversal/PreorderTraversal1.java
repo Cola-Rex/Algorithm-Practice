@@ -1,8 +1,9 @@
-package binaryTraversal;
+package binary.binaryTraversal;
 
 import java.util.ArrayList;
 
 /**
+ * 二叉树的前序遍历
  * 遍历+递归
  */
 public class PreorderTraversal1 {

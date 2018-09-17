@@ -1,10 +1,11 @@
-package binaryTraversal;
+package binary.binaryTraversal;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
 /**
+ * 二叉树的前序遍历
  * 非递归＋栈
  */
 public class PreorderTraversal3 {
