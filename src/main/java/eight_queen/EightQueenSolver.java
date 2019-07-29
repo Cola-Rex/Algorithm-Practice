@@ -1,3 +1,5 @@
+package eight_queen;
+
 import java.util.Date;
 
 /**
