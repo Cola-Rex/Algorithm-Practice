@@ -38,6 +38,7 @@ public class SnowFlake {
 
     /**
      * 构造方法
+     *
      * @param datacenterId
      * @param machineId
      */
@@ -94,6 +95,7 @@ public class SnowFlake {
 
     /**
      * 得到当前时间戳
+     *
      * @return 当前系统时间戳
      */
     private long getNewStamp() {
